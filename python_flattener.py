@@ -47,7 +47,8 @@ class PythonProjectFlattener:
             '.git',
             '.pytest_cache',
             'eggs',
-            '.tox'
+            '.tox',
+            'output'
         ]
 
         # Check if any excluded directory is in the path
